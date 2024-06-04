@@ -1,0 +1,104 @@
+/* src/styles.css */
+/* src/App.css */
+.nav-center {
+  display: flex;
+  justify-content: center;
+  gap: 20px; /* Optional: Adds some space between the links */
+  padding: 20px;
+  background-color: #f8f8f8; /* Optional: Adds a background color */
+}
+
+.nav-center a {
+  text-decoration: none;
+  color: blue; /* Optional: Change the link color */
+  font-size: 18px; /* Optional: Increase the font size */
+}
+
+.nav-center a:hover {
+  text-decoration: underline;
+}
+
+.book-card {
+  border: 1px solid #ccc;
+  padding: 16px;
+  margin: 16px;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.book-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+input {
+  margin: 16px;
+  padding: 8px;
+  font-size: 16px;
+}
+
+nav a {
+  margin: 16px;
+  text-decoration: none;
+  color: blue;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+/* src/components/SearchPage.css */
+.search-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.search-input {
+  width: 50%;
+  padding: 10px;
+  font-size: 16px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.book-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+/* src/components/BookCard.css */
+.book-card {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 16px;
+  margin: 8px;
+  text-align: center;
+  width: 200px; /* Adjust the width as needed */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.book-card h3 {
+  font-size: 1.2em;
+  margin-bottom: 8px;
+}
+
+.book-card p {
+  font-size: 1em;
+  margin-bottom: 12px;
+}
+
+.book-card button {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.book-card button:hover {
+  background-color: #45a049;
+}
